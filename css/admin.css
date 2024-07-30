@@ -1,0 +1,163 @@
+* {
+    font-family: 'Jost', sans-serif;
+    padding: 0;
+    margin: 0;
+    border: none;
+    text-decoration: none;
+    outline: none;
+    transition: 0.2s;
+}
+body {
+    background: #EBEBEB;
+}
+
+
+.welocad {
+    width: 1000px;
+    margin: auto;
+    text-align: center;
+    padding-top: 20%;
+}
+.welocad h1 {
+    color: #121212;
+    padding-bottom: 20px;
+}
+.welocad input {
+    width: 240px;
+    height: 40px;
+    padding-left: 10px;
+    border-radius: 10px;
+    background: #cacaca;
+    font-weight: 600;
+    font-size: 16px;
+}
+.welocad button {
+    height: 40px;
+    width: 120px;
+    background: rgb(90, 90, 238);
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 20px;
+}
+.welocad button:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 15px 10px rgba(0, 0, 0, 0.1);
+}
+
+.nopass {
+    padding-top: 40px;
+    color: #F53647;
+}
+
+.admincontent {
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+.nav {
+    width: 350px;
+    background: #cacaca;
+    height: 100vh;
+}
+
+.content {
+    width: 100%;
+    height: 100vh;
+    overflow-y: hidden;
+    margin-left: 20px;
+}
+
+.nav h2 {
+    margin-left: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.nav p {
+    margin-top: 20px;
+    padding-left: 20px;
+    color: #121212;
+    font-weight: 600;
+}
+.nav p:hover {
+    color: #F53647;
+}
+
+.content h3 {
+    padding-top: 40px;
+    font-size: 24px;
+}
+.content h4 {
+    padding-top: 20px;
+    font-size: 18px;
+}
+
+.addorder input {
+    height: 40px;
+    width: 240px;
+    background: #cacaca;
+    border-radius: 5px;
+    color: #121212;
+    font-weight: 600;
+    margin-top: 20px;
+    font-size: 16px;
+    padding-left: 10px;
+}
+.addorder button {
+    height: 40px;
+    width: 250px;
+    background: #cacaca;
+    border-radius: 5px;
+    font-weight: 600;
+    margin-top: 20px;
+    font-size: 16px;
+    background: #F53647;
+    color: #EBEBEB;
+}
+
+.order {
+    background: #cacaca;
+    padding: 20px;
+    border-radius: 20px;
+    width: 600px;
+    position: relative;
+    margin-top: 20px;
+}
+.order h5 {
+    font-size: 20px;
+}
+.status {
+    position: absolute;
+    right: 0;
+    height: 100%;
+    width: 200px;
+    background: #F53647;
+    top: 0;
+    border-radius: 20px;
+    text-align: center;
+}
+.status p {
+    padding-top: 45px;
+    font-weight: 600;
+    color: white;
+}
+.change {
+    position: absolute;
+    right: -220px;
+    height: 100%;
+    width: 200px;
+    background: rgb(46, 122, 93);
+    top: 0;
+    border-radius: 20px;
+    text-align: center;
+}
+.change p {
+    padding-top: 45px;
+    font-weight: 600;
+    color: white;
+}
+.change:hover {
+    transform: scale(1.05);
+    box-shadow: 10px 0px 15px 10px rgba(0, 0, 0, 0.1);
+}
